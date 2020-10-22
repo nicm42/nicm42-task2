@@ -5,6 +5,8 @@ body {
   box-sizing: border-box;
   font-size: 100%;
   font-family: sans-serif;
+  background: rgb(106, 0, 244);
+  background: linear-gradient(90deg, rgba(106, 0, 244, 1) 0%, rgba(229, 0, 164, 1) 100%);
 }
 
 .container {
@@ -14,8 +16,8 @@ body {
 }
 
 #container {
-  width: min(400px, 100vw);
-  height: min(400px, 100vw);
+  width: min(400px, 80vw);
+  height: min(400px, 80vw);
 }
 
 form {
@@ -26,4 +28,14 @@ form {
 
 #display {
   grid-column: span 4;
+}
+
+.button {
+  background: transparent;
+  color: white;
+  font-size: 2rem;
+}
+
+.mathButtons {
+  
 }
