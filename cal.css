@@ -42,8 +42,19 @@ form {
   background: transparent;
   color: white;
   font-size: 2rem;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background: rgba(106, 0, 244, 0.5)
 }
 
 .mathButtons {
   background: rgba(106, 0, 244, 0.5);
+}
+
+.mathButtons:hover,
+.mathButtons:focus {
+  background: rgba(229, 0, 164, 1);
 }
