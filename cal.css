@@ -15,9 +15,11 @@ body {
 
 #container {
   width: min(400px, 100vw);
+  height: min(400px, 100vw);
 }
 
 form {
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
