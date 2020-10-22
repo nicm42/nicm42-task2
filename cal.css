@@ -28,14 +28,21 @@ form {
 
 #display {
   grid-column: span 4;
+  padding-right: 0.5em;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: transparent;
+  font-size: 2rem;
+  color: white;
+  text-align: right;
 }
 
 .button {
+  border: 1px solid rgba(255, 255, 255, 0.5);
   background: transparent;
   color: white;
   font-size: 2rem;
 }
 
 .mathButtons {
-  
+  background: rgba(106, 0, 244, 0.5);
 }
