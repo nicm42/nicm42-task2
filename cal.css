@@ -58,7 +58,7 @@ form {
 
 .button:focus,
 .mathButtons:focus {
-  color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 1);
 }
 
 .mathButtons:hover {
@@ -68,7 +68,10 @@ form {
 /* fix for iOS making these these rounded */
 .button,
 .mathButton,
-.button:focus;
-.mathButton:focus {
+.button:focus,
+.mathButton:focus 
+.button:hover,
+.mathButton:hover {
+  -webkit-appearance: none;
   border-radius: 0;
 }
