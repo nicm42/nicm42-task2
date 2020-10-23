@@ -33,19 +33,24 @@ form {
   grid-column: span 4;
   padding-right: 0.5em;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  background: transparent;
-  font-size: 2rem;
   font-family: 'Open Sans',sans-serif;
-  color: white;
   text-align: right;
+}
+
+#display,
+.button {
+  background: transparent;
+  color: rgba(255, 255, 255, 1);
+  font-size: 2rem;
 }
 
 .button {
   border: 1px solid rgba(255, 255, 255, 0.33);
-  background: transparent;
-  color: white;
-  font-size: 2rem;
   cursor: pointer;
+}
+
+.mathButtons {
+  background: rgba(152, 0, 214, 1);
 }
 
 .button:hover {
@@ -54,11 +59,7 @@ form {
 
 .button:focus,
 .mathButtons:focus {
-  border-color: white;
-}
-
-.mathButtons {
-  background: rgba(106, 0, 244, 0.5);
+  color: rgba(255, 255, 255, 1);
 }
 
 .mathButtons:hover {
