@@ -3,10 +3,10 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: rgba(106, 0, 244, 1);
+  background: linear-gradient(90deg, rgba(106, 0, 244, 1) 0%, rgba(229, 0, 164, 1) 100%);
   font-size: 100%;
   font-family: 'Open Sans', sans-serif;
-  background: rgb(106, 0, 244);
-  background: linear-gradient(90deg, rgba(106, 0, 244, 1) 0%, rgba(229, 0, 164, 1) 100%);
 }
 
 .container {
@@ -17,7 +17,6 @@ body {
 
 #container {
   width: min(400px, 80vw);
-  height: min(400px, 80vw);
   border: none;
 }
 
@@ -63,5 +62,5 @@ form {
 }
 
 .mathButtons:hover {
-  background: rgba(229, 0, 164, 1);
+  background: rgba(229, 0, 164, 0.5);
 }
