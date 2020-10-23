@@ -18,12 +18,14 @@ body {
 #container {
   width: min(400px, 80vw);
   height: min(400px, 80vw);
+  border: none;
 }
 
 form {
   height: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  border: 1px solid rgba(255, 255, 255, 0.75);
 }
 
 #display {
