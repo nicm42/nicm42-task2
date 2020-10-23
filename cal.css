@@ -30,6 +30,8 @@ form {
 #display {
   width: calc(min(400px, 80vw) - 0.6em);
   grid-column: span 4;
+  margin: 0;
+  padding: 0;
   padding-right: 0.5em;
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-family: 'Open Sans',sans-serif;
@@ -67,6 +69,7 @@ form {
 }
 
 /* fix for iOS making these these rounded */
+#display,
 .button,
 .mathButton,
 .button:focus,
