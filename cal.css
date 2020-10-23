@@ -39,23 +39,26 @@ form {
 }
 
 .button {
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.33);
   background: transparent;
   color: white;
   font-size: 2rem;
   cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.button:hover {
   background: rgba(106, 0, 244, 0.5)
+}
+
+.button:focus,
+.mathButtons:focus {
+  border-color: white;
 }
 
 .mathButtons {
   background: rgba(106, 0, 244, 0.5);
 }
 
-.mathButtons:hover,
-.mathButtons:focus {
+.mathButtons:hover {
   background: rgba(229, 0, 164, 1);
 }
