@@ -64,3 +64,11 @@ form {
 .mathButtons:hover {
   background: rgba(229, 0, 164, 0.5);
 }
+
+/* fix for iOS making these these rounded */
+.button,
+.mathButton,
+.button:focus;
+.mathButton:focus {
+  border-radius: 0;
+}
